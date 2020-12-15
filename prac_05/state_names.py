@@ -11,8 +11,8 @@ def main():
             print("Invalid short state")
         state_code = input("Enter short state: ").upper()
 
-    for key, value in code_to_name.items():
-        print("{:3} is {}".format(key, value))
+    for state_code, state_name in code_to_name.items():
+        print("{:3} is {}".format(state_code, state_name))
 
 
 main()

@@ -15,8 +15,8 @@ def main():
             name = input("Enter your name: ")
         email = input("Enter your email: ")
         emails_names[email] = name
-    for key, value in emails_names.items():
-        print("{} ({})".format(value, key))
+    for email, name in emails_names.items():
+        print("{} ({})".format(name, email))
 
 
 main()
