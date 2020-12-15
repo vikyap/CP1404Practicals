@@ -6,7 +6,7 @@ def name_from_email(email):
 
 
 def main():
-    emails_names = {}
+    email_name = {}
     email = input("Enter your email: ")
     while email != "":
         name = name_from_email(email)
@@ -14,8 +14,8 @@ def main():
         if correct.upper() == "N" or correct != "":
             name = input("Enter your name: ")
         email = input("Enter your email: ")
-        emails_names[email] = name
-    for email, name in emails_names.items():
+        email_name[email] = name
+    for email, name in email_name.items():
         print("{} ({})".format(name, email))
 
 
