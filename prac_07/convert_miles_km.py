@@ -26,14 +26,4 @@ class ConvertMilesKm(App):
             return 0
 
 
-
-
-
-
-
-
-
-
-
-
 ConvertMilesKm().run()
