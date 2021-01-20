@@ -16,5 +16,4 @@ def main():
             os.mkdir(source + "/" + extension)
             shutil.move(source + '/' + file, source + '/' + extension + "/" + file)
 
-
 main()
